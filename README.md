@@ -7,9 +7,7 @@ When making changes, look at the theme's definition to find the "proper" scope t
 
 The goal is to have a simplistic helper to assist with eyeballing PTX code, so bear with me if the TextMate spec is abusing scopes a bit (to force italic format for example)
 
-For now, it looks like this (VSCode Quiet Light theme):
-
-![](./demo.png)
+For now, it looks like this (VSCode Quiet Light theme): (see `./demo.png`. Hyperlink might break bundle build unnecessarily.)
 
 ## How to install:
 - Clone this repo
