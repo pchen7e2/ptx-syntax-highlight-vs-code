@@ -1,0 +1,29 @@
+{
+  "name": "pchen-mini-ptx-syntax",
+  "displayName": "pchen-mini-ptx-syntax",
+  "description": "Syntax highlighting NV PTX",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ptx",
+      "aliases": ["NV PTX", "ptx", "PTX"],
+      "extensions": [".ptx"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ptx",
+      "scopeName": "source.ptx",
+      "path": "./syntaxes/ptx.tmLanguage.json"
+    }]
+  },
+  "repository": {
+        "type": "git",
+        "url": ""
+    }
+}
