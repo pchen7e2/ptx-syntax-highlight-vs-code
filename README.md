@@ -7,6 +7,11 @@ When making changes, look at the theme's definition to find the "proper" scope t
 
 The goal is to have a simplistic helper to assist with eyeballing PTX code, so bear with me if the TextMate spec is abusing scopes a bit (to force italic format for example)
 
-For now, it looks like this (in VSCode for VSCode Quiet Light theme):
+For now, it looks like this (VSCode Quiet Light theme):
 
 ![](./demo.png)
+
+## How to install:
+- Clone this repo
+- Build bundle: `vsce package` (https://code.visualstudio.com/api/working-with-extensions/publishing-extension#vsce)
+- Install the built `vsix` bundle: `code --install-extension pchen-mini-ptx-syntax-0.0.1.vsix` or use VSCode UI
