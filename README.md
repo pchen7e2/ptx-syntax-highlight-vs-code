@@ -9,4 +9,4 @@ The goal is to have a simplistic helper to assist with eyeballing PTX code, so b
 
 For now, it looks like this (in VSCode for VSCode Quiet Light theme):
 
-[](./demo.png)
+![](./demo.png)
